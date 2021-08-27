@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+<style>
+  .flex-container1 {
+    display: flex;
+    flex-direction: row;
+    font-family: arial;
+}
+
+  .about {
+      display: flex;
+      color: #222;
+      padding: 20px;  
+}
+
+  .about:hover {
+    text-decoration: underline;
+}
+
+  .store {
+      display: flex;
+      color: #222;
+      padding: 20px;
+    }
+
+  .store:hover {
+      color: pink;
+}
+
+  .logo {
+  margin-left: 500px;  
+  margin-top: 150px;
+}
+
+  .search {
+    background-color: transparent;
+    border: none;
+    margin-left: 527px;
+    margin-top: 20px;
+    padding: 0;
+    color: rgba(0,0,0,.87);
+    word-wrap: break-word;
+    outline: none;
+    display: flex;
+    flex: 100%;
+    height: 34px;
+    font-size: 16px;
+}
+
+.flex-container2 {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  font-family: arial;
+}
+
+.gmail {
+  display: flex;
+  color: #222;
+  padding: 20px;
+}
+
+.gmail:hover {
+      color: red;
+}
+
+.images {
+  display: flex;
+  color: #222;
+  padding: 20px;
+}
+
+.images:hover {
+  color: blue;
+}
+
+#search-button {
+  position: fixed;
+  margin-left: 530px;
+  bottom: 265px;
+  padding: 0px;
+}
+
+#lucky-button {
+  position: fixed;
+  margin-left: 630px;
+  bottom: 265px;
+}
+
+#left-footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+#right-footer {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+#advertising{
+  padding: 20px; 
+}
+
+#business {
+  padding: 20px;
+}
+
+#how-search{
+  padding: 20px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-family: arial;
+}
+
+li {
+  display: inline;
+  width: 60px;
+  padding: 20px;
+}
+
+</style>
+
+</head>
+
+<body>
+  <div class="flex-container1">
+    <div class="about">About</div>
+    <div class="store">Store</div>
+  </div>
+
+  </div>
+  <div class="logo">
+    <img src = "https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+  </div>
+  
+  <div class="search">
+    <input type="text" placeholder="Search..">
+  </div>
+  
+  <div class="flex-container2">
+    <div class="gmail">Gmail</div>
+    <div class="images">Images</div>
+  </div>
+
+  <div id="search-button">
+    <button>Google Search</button>
+  </div>
+
+  <div id="lucky-button">
+    <button>Feeling Correct</button>
+  </div>
+
+  <ul id="left-footer">
+    <li><a>Advertising</a></li>
+    <li><a>Business</a></li>
+    <li><a>How Search Works</a></li>
+  </ul>
+
+  <ul id="right-footer">
+    <li><a>Privacy</a></li>
+    <li><a>Terms</a></li>
+    <li><a>Settings</a></li>
+  </ul>
+
+</body>
+</html>
